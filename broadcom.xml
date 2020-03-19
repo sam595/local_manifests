@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remove-project name="platform/hardware/broadcom/wlan" />
 <project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" groups="device" remote="sony" revision="master" />
 <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
+<project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="device" remote="tone" revision="lineage-15.1" />
 </manifest>
