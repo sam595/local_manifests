@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remove-project name="LineageOS/android_packages_apps_FMRadio" />
+<remove-project name="LineageOS/android_hardware_qcom_camera" />
+<remove-project name="LineageOS/android_hardware_qcom_fm" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+<remove-project name="LineageOS/android_hardware_qcom_wlan" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
+<remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
+<remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+<remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+<remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+<remove-project name="LineageOS/android_bionic" />
+<remove-project name="LineageOS/android_hardware_qcom_gps" />
+<remove-project name="LineageOS/android_hardware_qcom_audio" />
+<remove-project name="LineageOS/android_hardware_qcom_media" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="LineageOS/android_hardware_qcom_bt" />
+<remove-project name="LineageOS/android_system_core" />
+<remove-project name="LineageOS/android_frameworks_base" />
+ <project path="bionic" name="Tone-keep-on-4-4/platform_bionic" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/gps" name="Tone-keep-on-4-4/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/audio" name="Tone-keep-on-4-4/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media" name="Tone-keep-on-4-4/platform_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/display" name="Tone-keep-on-4-4/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/bt" name="Tone-keep-on-4-4/platform_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.1" />
+  <project path="system/core" name="Tone-keep-on-4-4/platform_system_core" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="frameworks/base" name="Tone-keep-on-4-4/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+</manifest>

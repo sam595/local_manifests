@@ -3,5 +3,5 @@
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="tone" fetch="https://github.com/Tone-keep-on-4-4/" />
 <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
-<project path="vendor/nxp/NXPNFCC_FW" name="nfc-NXPNFCC_FW" groups="device" remote="tone" revision="master" />
+<project path="vendor/nxp/NXPNFCC_FW" name="nfc-NXPNFCC_FW" groups="device" remote="tone" revision="master" clone-depth="1"/>
 </manifest>
