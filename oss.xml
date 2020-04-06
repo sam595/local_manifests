@@ -2,6 +2,24 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="tone" fetch="https://github.com/Tone-keep-on-4-4/" />
+<remove-project name="LineageOS/android_hardware_qcom_camera" />
+<remove-project name="LineageOS/android_hardware_qcom_fm" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+<remove-project name="LineageOS/android_hardware_qcom_wlan" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
+<remove-project name="LineageOS/android_hardware_qcom_gps" />
+<remove-project name="LineageOS/android_hardware_qcom_audio" />
+<remove-project name="LineageOS/android_hardware_qcom_media" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="LineageOS/android_hardware_qcom_bt" />
+<remove-project name="LineageOS/android_frameworks_base" />
+
+<project path="hardware/qcom/audio/default" name="Tone-keep-on-4-4/platform_hardware_qcom_audio" groups="qcom,pdk" remote="github" revision="lineage-16.0" />
+<project path="hardware/qcom/media" name="Tone-keep-on-4-4/platform_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-16.0" />
+<project path="hardware/qcom/display" name="Tone-keep-on-4-4/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-16.0" />
+<project path="hardware/qcom/bt" name="Tone-keep-on-4-4/platform_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-16.0" />
+<project path="frameworks/base" name="Tone-keep-on-4-4/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-16.0" clone-depth="1"/>
+
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
@@ -9,7 +27,6 @@
 <project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
-<project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="android-8.1.0_r35" />
+<project path="vendor/oss/transpower" name="transpower" groups="device" remote="tone" revision="p-mr1" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="o-mr1" />
-<project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
 </manifest>
