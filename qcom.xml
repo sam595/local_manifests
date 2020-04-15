@@ -6,7 +6,7 @@
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="tone" revision="aosp/LA.UM.6.4.r1" />
 <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
 <project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
-<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="tone" revision="aosp/LA.UM.6.3.r1" >
+<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="tone" revision="q-mr1" >
   <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
 </project>
 

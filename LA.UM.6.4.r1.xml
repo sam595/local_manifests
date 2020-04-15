@@ -2,6 +2,6 @@
 <manifest>
 <remote name="tone" fetch="https://github.com/Tone-keep-on-4-4/" />
 <project path="kernel/sony/msm-4.4/common-headers" name="device-sony-common-headers" groups="device" remote="tone" revision="p-mr1" />
-<!--project path="kernel/sony/msm-4.4/common-kernel" name="kernel-sony-msm-4.4-common" groups="device" remote="tone" revision="aosp/LA.UM.6.4.r1" clone-depth="1"/-->
-<project path="kernel/sony/msm-4.4/kernel" name="kernel" groups="device" remote="tone" revision="p-mr1" />
+<!--project path="kernel/sony/msm-4.4/common-kernel" name="kernel-sony-4.4-common" groups="device" remote="tone" revision="q-mr1-legacy" clone-depth="1"/-->
+<project path="kernel/sony/msm-4.4/kernel" name="kernel" groups="device" remote="tone" revision="q-mr1-legacy" />
 </manifest>

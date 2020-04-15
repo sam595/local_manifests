@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="tone" fetch="https://github.com/Tone-keep-on-4-4/" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="tone" revision="lineage-16.0" />
-<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="tone" revision="lineage-16.0" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="tone" revision="lineage-17.1" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="tone" revision="lineage-17.1" />
 
 <!--msm8996-->
-<project path="device/sony/tone" name="device-sony-tone" groups="device" remote="tone" revision="lineage-16.0" />
-<project path="device/sony/dora" name="device-sony-dora" groups="device" remote="tone" revision="lineage-16.0" />
-<project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="tone" revision="lineage-16.0" />
+<project path="device/sony/tone" name="device-sony-tone" groups="device" remote="tone" revision="lineage-17.1" />
+<project path="device/sony/dora" name="device-sony-dora" groups="device" remote="tone" revision="lineage-17.1" />
+<!--project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="tone" revision="lineage-16.0" /-->
 </manifest>
