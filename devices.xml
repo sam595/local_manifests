@@ -7,6 +7,7 @@
 <!--msm8996-->
 <project path="device/sony/tone" name="device-sony-tone" groups="device" remote="tone" revision="lineage-17.1" />
 <project path="device/sony/dora" name="device-sony-dora" groups="device" remote="tone" revision="lineage-17.1" />
+<project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="tone" revision="lineage-17.1" />
 <!--project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="tone" revision="lineage-16.0" /-->
 <project path="vendor/sony/tone" name="vendor-sony-tone" groups="device" remote="tone" revision="lineage-16.0" />
 </manifest>

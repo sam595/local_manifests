@@ -5,14 +5,12 @@
 <remove-project name="platform/hardware/qcom/camera" />
 <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
 <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-<remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
 <remove-project name="LineageOS/android_hardware_qcom_gps" />
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <remove-project name="LineageOS/android_hardware_qcom_bt" />
 <remove-project name="LineageOS/android_frameworks_base" />
-<remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
 
 <project path="hardware/qcom/audio" name="Tone-keep-on-4-4/platform_hardware_qcom_audio" groups="qcom,pdk" remote="github" revision="lineage-17.1" />
 <project path="hardware/qcom/media" name="Tone-keep-on-4-4/platform_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-17.1" />
